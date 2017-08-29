@@ -12,13 +12,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 UITextFieldDelegate {
 
     @IBOutlet weak var imagePickerView: UIImageView!
-    @IBOutlet weak var cameraButton: UIButton!
-    @IBOutlet weak var shareButton: UIButton!
+    @IBOutlet weak var cameraButton: UIBarButtonItem!
+    @IBOutlet weak var shareButton: UIBarButtonItem!
     @IBOutlet weak var topText: UITextField!
     @IBOutlet weak var bottomText: UITextField!
     @IBOutlet weak var toolbar: UIToolbar!
     @IBOutlet weak var sharebar: UIToolbar!
-    @IBOutlet weak var topConstraint: NSLayoutConstraint!
 
     
     var editingBottom: Bool!
@@ -177,7 +176,7 @@ UITextFieldDelegate {
     
     func keyboardWillShow(_ notification: Notification){
         if(editingBottom){
-            self.view.frame.origin.y -= getKeyboardHeight(notification)
+            self.view.frame.origin.y = -getKeyboardHeight(notification)
         }
     }
     

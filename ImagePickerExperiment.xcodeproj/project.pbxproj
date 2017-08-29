@@ -505,6 +505,7 @@
 				2712E9D71E2975B200E01C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2712E9D81E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				2712E9DA1E2975B200E01C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2712E9DB1E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				2712E9DD1E2975B200E01C24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
