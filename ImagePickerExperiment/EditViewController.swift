@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate,
+class EditViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate,
 UITextFieldDelegate {
 
     @IBOutlet weak var imagePickerView: UIImageView!

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2712E9B11E2975B200E01C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9B01E2975B200E01C24 /* AppDelegate.swift */; };
-		2712E9B31E2975B200E01C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9B21E2975B200E01C24 /* ViewController.swift */; };
+		2712E9B31E2975B200E01C24 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9B21E2975B200E01C24 /* EditViewController.swift */; };
 		2712E9B61E2975B200E01C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2712E9B41E2975B200E01C24 /* Main.storyboard */; };
 		2712E9B81E2975B200E01C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2712E9B71E2975B200E01C24 /* Assets.xcassets */; };
 		2712E9BB1E2975B200E01C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2712E9B91E2975B200E01C24 /* LaunchScreen.storyboard */; };
-		2712E9C61E2975B200E01C24 /* ImagePickerExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9C51E2975B200E01C24 /* ImagePickerExperimentTests.swift */; };
-		2712E9D11E2975B200E01C24 /* ImagePickerExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9D01E2975B200E01C24 /* ImagePickerExperimentUITests.swift */; };
+		2712E9C61E2975B200E01C24 /* MemeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9C51E2975B200E01C24 /* MemeMeTests.swift */; };
+		2712E9D11E2975B200E01C24 /* MemeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2712E9D01E2975B200E01C24 /* MemeMeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,30 +22,30 @@
 			containerPortal = 2712E9A51E2975B200E01C24 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2712E9AC1E2975B200E01C24;
-			remoteInfo = ImagePickerExperiment;
+			remoteInfo = MemeMe;
 		};
 		2712E9CD1E2975B200E01C24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2712E9A51E2975B200E01C24 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2712E9AC1E2975B200E01C24;
-			remoteInfo = ImagePickerExperiment;
+			remoteInfo = MemeMe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2712E9AD1E2975B200E01C24 /* ImagePickerExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2712E9AD1E2975B200E01C24 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2712E9B01E2975B200E01C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2712E9B21E2975B200E01C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2712E9B21E2975B200E01C24 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		2712E9B51E2975B200E01C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2712E9B71E2975B200E01C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2712E9BA1E2975B200E01C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2712E9BC1E2975B200E01C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2712E9C11E2975B200E01C24 /* ImagePickerExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2712E9C51E2975B200E01C24 /* ImagePickerExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerExperimentTests.swift; sourceTree = "<group>"; };
+		2712E9C11E2975B200E01C24 /* MemeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2712E9C51E2975B200E01C24 /* MemeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMeTests.swift; sourceTree = "<group>"; };
 		2712E9C71E2975B200E01C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2712E9CC1E2975B200E01C24 /* ImagePickerExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2712E9D01E2975B200E01C24 /* ImagePickerExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerExperimentUITests.swift; sourceTree = "<group>"; };
+		2712E9CC1E2975B200E01C24 /* MemeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2712E9D01E2975B200E01C24 /* MemeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMeUITests.swift; sourceTree = "<group>"; };
 		2712E9D21E2975B200E01C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,9 +77,9 @@
 		2712E9A41E2975B200E01C24 = {
 			isa = PBXGroup;
 			children = (
-				2712E9AF1E2975B200E01C24 /* ImagePickerExperiment */,
-				2712E9C41E2975B200E01C24 /* ImagePickerExperimentTests */,
-				2712E9CF1E2975B200E01C24 /* ImagePickerExperimentUITests */,
+				2712E9AF1E2975B200E01C24 /* MemeMe */,
+				2712E9C41E2975B200E01C24 /* MemeMeTests */,
+				2712E9CF1E2975B200E01C24 /* MemeMeUITests */,
 				2712E9AE1E2975B200E01C24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +87,50 @@
 		2712E9AE1E2975B200E01C24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2712E9AD1E2975B200E01C24 /* ImagePickerExperiment.app */,
-				2712E9C11E2975B200E01C24 /* ImagePickerExperimentTests.xctest */,
-				2712E9CC1E2975B200E01C24 /* ImagePickerExperimentUITests.xctest */,
+				2712E9AD1E2975B200E01C24 /* MemeMe.app */,
+				2712E9C11E2975B200E01C24 /* MemeMeTests.xctest */,
+				2712E9CC1E2975B200E01C24 /* MemeMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2712E9AF1E2975B200E01C24 /* ImagePickerExperiment */ = {
+		2712E9AF1E2975B200E01C24 /* MemeMe */ = {
 			isa = PBXGroup;
 			children = (
 				2712E9B01E2975B200E01C24 /* AppDelegate.swift */,
-				2712E9B21E2975B200E01C24 /* ViewController.swift */,
+				2712E9B21E2975B200E01C24 /* EditViewController.swift */,
 				2712E9B41E2975B200E01C24 /* Main.storyboard */,
 				2712E9B71E2975B200E01C24 /* Assets.xcassets */,
 				2712E9B91E2975B200E01C24 /* LaunchScreen.storyboard */,
 				2712E9BC1E2975B200E01C24 /* Info.plist */,
 			);
-			path = ImagePickerExperiment;
+			path = MemeMe;
 			sourceTree = "<group>";
 		};
-		2712E9C41E2975B200E01C24 /* ImagePickerExperimentTests */ = {
+		2712E9C41E2975B200E01C24 /* MemeMeTests */ = {
 			isa = PBXGroup;
 			children = (
-				2712E9C51E2975B200E01C24 /* ImagePickerExperimentTests.swift */,
+				2712E9C51E2975B200E01C24 /* MemeMeTests.swift */,
 				2712E9C71E2975B200E01C24 /* Info.plist */,
 			);
-			path = ImagePickerExperimentTests;
+			path = MemeMeTests;
 			sourceTree = "<group>";
 		};
-		2712E9CF1E2975B200E01C24 /* ImagePickerExperimentUITests */ = {
+		2712E9CF1E2975B200E01C24 /* MemeMeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2712E9D01E2975B200E01C24 /* ImagePickerExperimentUITests.swift */,
+				2712E9D01E2975B200E01C24 /* MemeMeUITests.swift */,
 				2712E9D21E2975B200E01C24 /* Info.plist */,
 			);
-			path = ImagePickerExperimentUITests;
+			path = MemeMeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2712E9AC1E2975B200E01C24 /* ImagePickerExperiment */ = {
+		2712E9AC1E2975B200E01C24 /* MemeMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2712E9D51E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperiment" */;
+			buildConfigurationList = 2712E9D51E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMe" */;
 			buildPhases = (
 				2712E9A91E2975B200E01C24 /* Sources */,
 				2712E9AA1E2975B200E01C24 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = ImagePickerExperiment;
-			productName = ImagePickerExperiment;
-			productReference = 2712E9AD1E2975B200E01C24 /* ImagePickerExperiment.app */;
+			name = MemeMe;
+			productName = MemeMe;
+			productReference = 2712E9AD1E2975B200E01C24 /* MemeMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2712E9C01E2975B200E01C24 /* ImagePickerExperimentTests */ = {
+		2712E9C01E2975B200E01C24 /* MemeMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2712E9D81E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentTests" */;
+			buildConfigurationList = 2712E9D81E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMeTests" */;
 			buildPhases = (
 				2712E9BD1E2975B200E01C24 /* Sources */,
 				2712E9BE1E2975B200E01C24 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				2712E9C31E2975B200E01C24 /* PBXTargetDependency */,
 			);
-			name = ImagePickerExperimentTests;
-			productName = ImagePickerExperimentTests;
-			productReference = 2712E9C11E2975B200E01C24 /* ImagePickerExperimentTests.xctest */;
+			name = MemeMeTests;
+			productName = MemeMeTests;
+			productReference = 2712E9C11E2975B200E01C24 /* MemeMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2712E9CB1E2975B200E01C24 /* ImagePickerExperimentUITests */ = {
+		2712E9CB1E2975B200E01C24 /* MemeMeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2712E9DB1E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentUITests" */;
+			buildConfigurationList = 2712E9DB1E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMeUITests" */;
 			buildPhases = (
 				2712E9C81E2975B200E01C24 /* Sources */,
 				2712E9C91E2975B200E01C24 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				2712E9CE1E2975B200E01C24 /* PBXTargetDependency */,
 			);
-			name = ImagePickerExperimentUITests;
-			productName = ImagePickerExperimentUITests;
-			productReference = 2712E9CC1E2975B200E01C24 /* ImagePickerExperimentUITests.xctest */;
+			name = MemeMeUITests;
+			productName = MemeMeUITests;
+			productReference = 2712E9CC1E2975B200E01C24 /* MemeMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2712E9A81E2975B200E01C24 /* Build configuration list for PBXProject "ImagePickerExperiment" */;
+			buildConfigurationList = 2712E9A81E2975B200E01C24 /* Build configuration list for PBXProject "MemeMe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2712E9AC1E2975B200E01C24 /* ImagePickerExperiment */,
-				2712E9C01E2975B200E01C24 /* ImagePickerExperimentTests */,
-				2712E9CB1E2975B200E01C24 /* ImagePickerExperimentUITests */,
+				2712E9AC1E2975B200E01C24 /* MemeMe */,
+				2712E9C01E2975B200E01C24 /* MemeMeTests */,
+				2712E9CB1E2975B200E01C24 /* MemeMeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2712E9B31E2975B200E01C24 /* ViewController.swift in Sources */,
+				2712E9B31E2975B200E01C24 /* EditViewController.swift in Sources */,
 				2712E9B11E2975B200E01C24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2712E9C61E2975B200E01C24 /* ImagePickerExperimentTests.swift in Sources */,
+				2712E9C61E2975B200E01C24 /* MemeMeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2712E9D11E2975B200E01C24 /* ImagePickerExperimentUITests.swift in Sources */,
+				2712E9D11E2975B200E01C24 /* MemeMeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		2712E9C31E2975B200E01C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2712E9AC1E2975B200E01C24 /* ImagePickerExperiment */;
+			target = 2712E9AC1E2975B200E01C24 /* MemeMe */;
 			targetProxy = 2712E9C21E2975B200E01C24 /* PBXContainerItemProxy */;
 		};
 		2712E9CE1E2975B200E01C24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2712E9AC1E2975B200E01C24 /* ImagePickerExperiment */;
+			target = 2712E9AC1E2975B200E01C24 /* MemeMe */;
 			targetProxy = 2712E9CD1E2975B200E01C24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ImagePickerExperiment/Info.plist;
+				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperiment;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ImagePickerExperiment/Info.plist;
+				INFOPLIST_FILE = MemeMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperiment;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -437,12 +437,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImagePickerExperimentTests/Info.plist;
+				INFOPLIST_FILE = MemeMeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperimentTests;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerExperiment.app/ImagePickerExperiment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe.app/MemeMe";
 			};
 			name = Debug;
 		};
@@ -451,12 +451,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImagePickerExperimentTests/Info.plist;
+				INFOPLIST_FILE = MemeMeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperimentTests;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerExperiment.app/ImagePickerExperiment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemeMe.app/MemeMe";
 			};
 			name = Release;
 		};
@@ -464,12 +464,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ImagePickerExperimentUITests/Info.plist;
+				INFOPLIST_FILE = MemeMeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperimentUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ImagePickerExperiment;
+				TEST_TARGET_NAME = MemeMe;
 			};
 			name = Debug;
 		};
@@ -477,19 +477,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ImagePickerExperimentUITests/Info.plist;
+				INFOPLIST_FILE = MemeMeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.ImagePickerExperimentUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = reddyarts.MemeMeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = ImagePickerExperiment;
+				TEST_TARGET_NAME = MemeMe;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2712E9A81E2975B200E01C24 /* Build configuration list for PBXProject "ImagePickerExperiment" */ = {
+		2712E9A81E2975B200E01C24 /* Build configuration list for PBXProject "MemeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2712E9D31E2975B200E01C24 /* Debug */,
@@ -498,7 +498,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2712E9D51E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperiment" */ = {
+		2712E9D51E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2712E9D61E2975B200E01C24 /* Debug */,
@@ -507,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2712E9D81E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentTests" */ = {
+		2712E9D81E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2712E9D91E2975B200E01C24 /* Debug */,
@@ -516,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2712E9DB1E2975B200E01C24 /* Build configuration list for PBXNativeTarget "ImagePickerExperimentUITests" */ = {
+		2712E9DB1E2975B200E01C24 /* Build configuration list for PBXNativeTarget "MemeMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2712E9DC1E2975B200E01C24 /* Debug */,
