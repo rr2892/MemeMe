@@ -19,7 +19,6 @@ UITextFieldDelegate {
     @IBOutlet weak var toolbar: UIToolbar!
     @IBOutlet weak var sharebar: UIToolbar!
 
-    
     var editingBottom: Bool!
     
     override func viewDidLoad() {
@@ -31,12 +30,11 @@ UITextFieldDelegate {
         shareButton.isEnabled = false;
     }
     
-    
     struct Meme{
-        var topCaption = ""
-        var bottomCaption = ""
-        var image: UIImage!
-        var memedImage: UIImage!
+        let topCaption: String!
+        let bottomCaption: String!
+        let image: UIImage!
+        let memedImage: UIImage!
     }
     
     func save(){
@@ -59,7 +57,6 @@ UITextFieldDelegate {
         sharebar.isHidden = hidden
     }
     
-    
     @IBAction func resetView(_ sender: Any) {
         topText.text = "TOP"
         bottomText.text = "BOTTOM"
@@ -69,20 +66,19 @@ UITextFieldDelegate {
     
     func generateMemedImage() -> UIImage{
         
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
-        self.setBars(hidden: true)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        setBars(hidden: true)
         
-        UIGraphicsBeginImageContext(self.view.frame.size)
-        view.drawHierarchy(in: self.view.frame, afterScreenUpdates: true)
+        UIGraphicsBeginImageContext(view.frame.size)
+        view.drawHierarchy(in: view.frame, afterScreenUpdates: true)
         let memedImage:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.setBars(hidden: false)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        setBars(hidden: false)
         
         return memedImage
     }
-    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -123,7 +119,7 @@ UITextFieldDelegate {
         let pickerController = UIImagePickerController()
         pickerController.delegate = self
         pickerController.sourceType = sourceType
-        self.present(pickerController, animated: true, completion: nil)
+        present(pickerController, animated: true, completion: nil)
         shareButton.isEnabled = true
     }
     
@@ -143,9 +139,12 @@ UITextFieldDelegate {
         controller.completionWithItemsHandler = {
             (activityType: UIActivityType?, completed: Bool, returnedItems: [Any]?, error: Error?) in
             self.dismiss(animated: true, completion: nil)
+            if(completed){
+                self.save()
+            }
         
         }
-        self.present(controller, animated: true, completion: nil)
+        present(controller, animated: true, completion: nil)
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -161,7 +160,6 @@ UITextFieldDelegate {
         
     }
     
-    
     func subscribeToKeyboardNotifications(){
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: .UIKeyboardWillShow,
                                                object: nil)
@@ -176,12 +174,12 @@ UITextFieldDelegate {
     
     func keyboardWillShow(_ notification: Notification){
         if(editingBottom){
-            self.view.frame.origin.y = -getKeyboardHeight(notification)
+            view.frame.origin.y = -getKeyboardHeight(notification)
         }
     }
     
     func keyboardWillHide(_ notification: Notification){
-        self.view.frame.origin.y = 0
+        view.frame.origin.y = 0
         
     }
     
@@ -191,7 +189,5 @@ UITextFieldDelegate {
         return keyboardSize.cgRectValue.height
     }
     
-    
-
 }
 

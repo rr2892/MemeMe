@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZ0-N3-nxC">
-                                <rect key="frame" x="0.0" y="63" width="375" height="559"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EZ0-N3-nxC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
                             </imageView>
                             <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtS-UJ-ykW">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
@@ -40,18 +40,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BOTTOM" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BlK-QE-QWi">
-                                <rect key="frame" x="16" y="577" width="343" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="fPD-RC-dR9"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TOP" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jP2-s1-eYR">
-                                <rect key="frame" x="16" y="89" width="343" height="21"/>
+                                <rect key="frame" x="16" y="79" width="343" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="9bd-qJ-GtS"/>
@@ -75,23 +65,33 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="BOTTOM" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BlK-QE-QWi">
+                                <rect key="frame" x="16" y="587" width="343" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="fPD-RC-dR9"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jP2-s1-eYR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="64V-NA-k5B"/>
                             <constraint firstItem="kVH-Dk-qYs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Ke-ZV-hk6"/>
                             <constraint firstItem="BlK-QE-QWi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7GJ-AW-KXw"/>
-                            <constraint firstItem="jtS-UJ-ykW" firstAttribute="top" secondItem="BlK-QE-QWi" secondAttribute="bottom" constant="25" id="7kW-S1-RtF"/>
-                            <constraint firstItem="jP2-s1-eYR" firstAttribute="top" secondItem="kVH-Dk-qYs" secondAttribute="bottom" constant="25" id="Ffq-zc-7l9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EZ0-N3-nxC" secondAttribute="trailing" constant="-16" id="HAY-nr-JoA"/>
                             <constraint firstItem="kVH-Dk-qYs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LJl-nJ-Yg1"/>
+                            <constraint firstItem="EZ0-N3-nxC" firstAttribute="top" secondItem="kVH-Dk-qYs" secondAttribute="bottom" id="P12-wj-sMh"/>
                             <constraint firstItem="EZ0-N3-nxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="QSF-o1-9cI"/>
-                            <constraint firstItem="jtS-UJ-ykW" firstAttribute="top" secondItem="EZ0-N3-nxC" secondAttribute="bottom" id="ZNg-TP-OeU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jtS-UJ-ykW" secondAttribute="bottom" id="Zbz-Nj-utH"/>
+                            <constraint firstItem="jP2-s1-eYR" firstAttribute="top" secondItem="kVH-Dk-qYs" secondAttribute="bottom" constant="15" id="aLA-CL-DBv"/>
                             <constraint firstAttribute="trailing" secondItem="kVH-Dk-qYs" secondAttribute="trailing" id="dgg-ds-77B"/>
                             <constraint firstItem="jtS-UJ-ykW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="faD-Q8-raf"/>
-                            <constraint firstItem="EZ0-N3-nxC" firstAttribute="top" secondItem="kVH-Dk-qYs" secondAttribute="bottom" id="ifm-8R-1fj"/>
                             <constraint firstAttribute="trailing" secondItem="jtS-UJ-ykW" secondAttribute="trailing" id="jOp-EY-mvr"/>
+                            <constraint firstItem="jtS-UJ-ykW" firstAttribute="top" secondItem="BlK-QE-QWi" secondAttribute="bottom" constant="15" id="l1w-r9-WLw"/>
+                            <constraint firstItem="jtS-UJ-ykW" firstAttribute="top" secondItem="EZ0-N3-nxC" secondAttribute="bottom" id="qOa-0a-0J6"/>
                         </constraints>
                     </view>
                     <connections>
